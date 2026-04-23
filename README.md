@@ -117,7 +117,7 @@ FROM customer_type
 GROUP BY segment;
 ```
 
-## Dashboard (Power BI)
+## Dashboard (Power BI) [View Dashboard](https://github.com/Esther-Ibegbu/Customer_behavior_analysis/blob/26069485506753fe8b8e0018a2ed2d8c371b26be/Customerr%20Dashboard.png)
 An interactive Power BI dashboard was developed to visualize insights.
 
 Key Features:
