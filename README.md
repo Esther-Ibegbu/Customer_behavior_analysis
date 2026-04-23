@@ -3,7 +3,7 @@
 
 ### Contents
 1. overview
-2. Tools used
+2. Tools used (and PowerBI dashbooard)
 3. Results and insights
 4. Recommendations
 5. Conclusion
