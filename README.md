@@ -1,17 +1,25 @@
-## Customer_behavior_analysis
-# Retail analysis using Python, SQL, and PowerBI
+# Customer_behavior_analysis
+## Retail analysis using Python, SQL, and PowerBI
 
-Overview
-This project presents an end-to-end data analytics workflow on a retail customer shopping behavior dataset. The objective is to analyze customer purchasing patterns and identify key insights. The project covers data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, dashboard development in Power BI, and final reporting through documentation and presentation.
+### Contents
+1. overview
+2. Tools used
+3. Results and insights
+4. Recommendations
+5. Conclusion
 
-# Tools Used
+## Overview
+
+This project presents an end-to-end data analytics workflow on a customer shopping behavior dataset. The project covers data loading, exploratory data analysis (EDA), data cleaning, SQL-based analysis, dashboard development in Power BI, and final reporting through documentation and presentation.
+
+## Tools Used
 Python (Pandas) – Data loading, cleaning, and transformation
 MySQL – Data querying and aggregation
 Power BI – Dashboard visualization
 Microsoft PowerPoint – Presentation of insights
 Microsoft Word / PDF – Reporting
 
-# Project Steps
+## Project Steps
 1. Data Loading (Python)
 Imported dataset using Pandas:
 
@@ -54,7 +62,7 @@ df['purchase_frequency_days'] = df['frequency_of_purchases'].map(labels_mapping)
 ```
 Exported cleaned dataset to MySQL for further analysis.
 
-# SQL Analysis (MySQL)
+## SQL Analysis (MySQL)
 Key business questions were answered using SQL queries:
 
 Revenue by Gender
@@ -109,7 +117,7 @@ FROM customer_type
 GROUP BY segment;
 ```
 
-# Dashboard (Power BI)
+## Dashboard (Power BI)
 An interactive Power BI dashboard was developed to visualize insights.
 
 Key Features:
@@ -118,20 +126,20 @@ Revenue breakdown by gender, age group, and subscription status
 Product performance and category analysis
 Filters for categories and shipping type.
 
-# Results & Insights
+# 3. Results & Insights
 The analysis revealed several key insights:
 
-1. Customer Behavior: Young adults contribute more significantly to revenue
-2. Subscription Impact: Subscribed customers tend to generate higher total revenue
-3. Product Insights: A small number of products (Hats, blouses, jewelries and sunglasses) dominate both sales volume and ratings
-4. Discount Strategy: Discounts can drive higher spending when targeted correctly
-Customer Segmentation: Loyal customers form a smaller group but contribute disproportionately to revenue
+1. Customer Behavior: Young adults contribute more significantly to revenue.
+2. Subscription Impact: Subscribed customers tend to generate higher total revenue.
+3. Product Insights: A small number of products (Hats, blouses, jewelries and sunglasses) dominate both sales volume and ratings.
+4. Discount Strategy: Discounts can drive higher spending when targeted correctly.
+5. Customer Segmentation: Loyal customers form a smaller group but contribute disproportionately to revenue.
 
-# Recommendations
+# 4. Recommendations
 1. Target High-Value Age Segment (Young Adults): Develop targeted marketing campaigns tailored to their preferences (social media, mobile-first promotions, influencer marketing).
 2. Expand and Incentivize Subscription Programs: Subscribed customers generate higher revenue, which makes subscriptions a key growth lever. Offer exclusive benefits (early access, special discounts, free shipping), target repeat customers with subscription offers, and introduce tiered subscription plans.
 3. Leverage Top-Performing Products: Ensure consistent stock availability of high-performing items, feature them prominently in marketing campaigns and homepage displays.
 4. Optimize Discount Strategy: Focus discounts on: high-value customers, bulk purchases, slow-moving inventory. Avoid over-discounting top-performing products. Test targeted promotions instead of blanket discounts, the goal is to ncrease revenue without eroding profit margins.
 
-# Conclusion
+# 5. Conclusion
 This project demonstrates a structured approach to data analytics, combining Python, SQL, and Power BI to extract meaningful insights from retail data.
